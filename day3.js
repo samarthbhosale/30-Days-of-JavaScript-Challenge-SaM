@@ -81,8 +81,8 @@ console.log(Date.now())
 // Exercises: Level 2
 //Write a script that prompt the user to enter base and height of the triangle and calculate an
 // area of a triangle (area = 0.5 x b x h).
-let c1 = raise("Enter Base : ")
-let c2 = raise("Enter Height : ")
+let c1 = prompt("Enter Base : ")
+let c2 = prompt("Enter Height : ")
 
 let area = 0.5 * c1 * c2
 
